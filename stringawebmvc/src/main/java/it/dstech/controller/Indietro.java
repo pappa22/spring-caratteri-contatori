@@ -20,13 +20,13 @@ public class Indietro {
 		
 	}
 	
-	//ovviamente non può mappare l'index perchè è fuori dal web-inf
-	/*@RequestMapping(value  = "/indietroUno", method = RequestMethod.POST)
+	
+	@RequestMapping(value  = "/indietroUno", method = RequestMethod.POST)
 	public ModelAndView primo(Model model) {
 		
 		ModelAndView newModel = new ModelAndView("index");
 		
 		return newModel;
 		
-	}*/
+	}
 }

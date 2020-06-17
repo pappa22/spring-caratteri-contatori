@@ -25,8 +25,8 @@
 			type="hidden" name="testo" value="${testo}" />
 				</form>
 <br><br><br>
-<!-- 		<form action="indietroUno" method="post"> -->
-<!-- 			<input type="submit" value="Torna Indietro"> -->
-<!-- 	</form> -->
+		<form action="indietroUno" method="post"> 
+			<input type="submit" value="Torna Indietro"> 
+	</form> 
 </body>
 </html>
