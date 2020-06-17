@@ -11,7 +11,7 @@
 <body>
 <br>
 <form action="contaParole" method="post">
-		<input type="submit" value="Conta Carattere">
+		<input type="submit" value="Conta Parole">
 		<input type="hidden"  name="testo" value= "${testo}"/>>
 </form>
 <br>

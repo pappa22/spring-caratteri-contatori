@@ -8,5 +8,10 @@
 </head>
 <body>
 Il risultato dell'operazione è: <b>${ris}</b>
+<br><br>
+<form action="indietro" method="post">
+		<input type="submit" value="Torna Indietro">
+		<input type="hidden"  name="testo" value= "${testo}"/>>
+</form>
 </body>
 </html>
