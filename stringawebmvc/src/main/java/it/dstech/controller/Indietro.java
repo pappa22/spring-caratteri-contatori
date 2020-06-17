@@ -24,7 +24,7 @@ public class Indietro {
 	@RequestMapping(value  = "/indietroUno", method = RequestMethod.POST)
 	public ModelAndView primo(Model model) {
 		
-		ModelAndView newModel = new ModelAndView("index");
+		ModelAndView newModel = new ModelAndView("redirect:/index.jsp");
 		
 		return newModel;
 		
