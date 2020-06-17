@@ -9,9 +9,9 @@
 <body>
 Il risultato dell'operazione è: <b>${ris}</b>
 <br><br>
-<form action="indietro" method="post">
+<form action="indietroDue" method="post">
 		<input type="submit" value="Torna Indietro">
-		<input type="hidden"  name="testo" value= "${testo}"/>>
+		<input type="hidden"  name="testo" value= "${testo}"/>
 </form>
 </body>
 </html>

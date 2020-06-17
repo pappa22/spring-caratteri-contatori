@@ -10,8 +10,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class Indietro {
 	
-	@RequestMapping(value  = "/indietro", method = RequestMethod.POST)
-	public ModelAndView operation(@RequestParam("testo") String testo, Model model) {
+	@RequestMapping(value  = "/indietroDue", method = RequestMethod.POST)
+	public ModelAndView secondo(@RequestParam("testo") String testo, Model model) {
 		
 		ModelAndView newModel = new ModelAndView("scegliOperazioni");
 		newModel.addObject("testo", testo);
@@ -19,4 +19,14 @@ public class Indietro {
 		return newModel;
 		
 	}
+	
+	//ovviamente non può mappare l'index perchè è fuori dal web-inf
+	/*@RequestMapping(value  = "/indietroUno", method = RequestMethod.POST)
+	public ModelAndView primo(Model model) {
+		
+		ModelAndView newModel = new ModelAndView("index");
+		
+		return newModel;
+		
+	}*/
 }
